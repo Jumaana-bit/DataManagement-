@@ -1,0 +1,31 @@
+
+input,
+select,
+option {
+color:black;
+}
+.select-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .select-box {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+
+        .dropdown-menu.show {
+            display: block;
+            max-height: 200px;
+            overflow-y: auto;
+        }
