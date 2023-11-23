@@ -20,19 +20,19 @@ https://github.com/SandraMShaji/DataManagement-.git
 
 2. Start your local server (XAMPP, WampServer, etc.).
 
-3.Import the provided SQL file into phpMyAdmin to create the necessary database:
-- Open phpMyAdmin in your browser (usually [http://localhost/phpmyadmin](http://localhost/phpmyadmin)).
+3. Import the provided SQL file into phpMyAdmin to create the necessary database:
+  - Open phpMyAdmin in your browser (usually [http://localhost/phpmyadmin](http://localhost/phpmyadmin)).
   
-- Create a new database (e.g., `phase2`).
+  - Create a new database (e.g., `phase2`).
 
-- Select the newly created database.
+  - Select the newly created database.
 
-- Import the SQL file provided (`flight_booking_system.sql`). This file is located in the project's root directory.
+  - Import the SQL file provided (`flight_booking_system.sql`). This file is located in the project's root directory.
 
-- Open `config.php` in the `includes` folder.
+  - Open `config.php` in the `includes` folder.
 
-- Update the database connection details if necessary. You may need to modify the host, username, password, and database based on your local setup.
-
+  - Update the database connection details if necessary. You may need to modify the host, username, password, and database based on your local setup.
+  
 ### Usage
 1. Open the project in your web browser:
 ```bash
