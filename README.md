@@ -14,7 +14,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. Clone the repository to your local machine:
 
-   ```bash
+```bash
 https://github.com/SandraMShaji/DataManagement-.git
 ```
 
@@ -35,7 +35,7 @@ https://github.com/SandraMShaji/DataManagement-.git
 
 ### Usage
 1. Open the project in your web browser:
-   ```bash
+```bash
 http://localhost/DataManagement-/home.php
 ``` 
 2. Fill in the required information:
