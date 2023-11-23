@@ -343,34 +343,14 @@ $CVV = mysqli_real_escape_string($conn, $CVV);
 
 $sql = "INSERT INTO flights (FlightId, Departure_date, Arrival_date,Departure_Airport, Arrival_Airport, Seats, Price, AirlineCode)
 VALUES ('$flightID', '$adjustedDepartureDate', '$adjustedReturnDate', NULL, NULL, NULL, '$price', '$airline' )";
-if ($conn->query($sql) === TRUE) {
-    // Query executed successfully
-    echo "New record created successfully";
-} else {
-    // Query execution failed
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+
 
 $sql2 = "INSERT INTO baggage (BaggageID, PassengerID, FlightID, ExtraBaggage, ExtraBaggageCost)
 VALUES(DEFAULT, DEFAULT,'$flightID', '$ExtraBaggage',  '$ExtraBaggageCost')";
-if ($conn->query($sql2) === TRUE) {
-    // Query executed successfully
-    echo "New record created successfully";
-} else {
-    // Query execution failed
-    echo "Error: " . $sql2 . "<br>" . $conn->error;
-}
 
 
 $sql3 = "INSERT INTO passenger (PassengerID, UserID, FlightID, FirstName, LastName, DOB, Email, Phone_Num)
 VALUES(DEFAULT, DEFAULT, '$flightID', '$FirstName', '$LastName', '$DOB', '$Email', '$Phone_Num')";
-if ($conn->query($sql3) === TRUE) {
-    // Query executed successfully
-    echo "New record created successfully";
-} else {
-    // Query execution failed
-    echo "Error: " . $sql3 . "<br>" . $conn->error;
-}
 
 
 
@@ -399,25 +379,11 @@ $randomSeat = generateRandomSeat();
 $totalPrice = $price + $ExtraBaggageCost + $ExtraCargoCost;
 $sql4 = "INSERT INTO ticket (TicketID, AirlineCode, FlightID, UserID, PassengerID, SeatNo, Cost, Class)
 VALUES (DEFAULT,'$airline', '$flightID', DEFAULT, DEFAULT, '$randomSeat', '$totalPrice', 'economy')";
-if ($conn->query($sql4) === TRUE) {
-    // Query executed successfully
-    echo "New record created successfully";
-} else {
-    // Query execution failed
-    echo "Error: " . $sql4 . "<br>" . $conn->error;
-}
 
 
 $sql5 = "INSERT INTO payment (CardNumber, UserID, Amount, CVV)
 VALUES('$cardNumber', DEFAULT,'$totalPrice','$CVV')";
-if ($conn->query($sql5) === TRUE) {
-    // Query executed successfully
-    echo "New record created successfully";
-} else {
-    // Query execution failed
-    echo "Error: " . $sql5 . "<br>" . $conn->error;
-    
-}
+
 
 
 
