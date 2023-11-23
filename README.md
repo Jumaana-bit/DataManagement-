@@ -16,6 +16,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
 https://github.com/SandraMShaji/DataManagement-.git
+```
 
 2. Start your local server (XAMPP, WampServer, etc.).
 
@@ -36,6 +37,7 @@ https://github.com/SandraMShaji/DataManagement-.git
 1. Open the project in your web browser:
    ```bash
 http://localhost/DataManagement-/home.php
+``` 
 2. Fill in the required information:
 - Start by entering IATA codes for the departure and destination airports (e.g., YYZ -> DXB).
 3. Explore the system:
