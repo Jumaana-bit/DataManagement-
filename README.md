@@ -27,7 +27,7 @@ https://github.com/SandraMShaji/DataManagement-.git
 
   - Select the newly created database.
 
-  - Import the SQL file provided (`flight_booking_system.sql`). This file is located in the project's root directory.
+  - Import the SQL file provided (`phase2.sql`). This file is located in the project's root directory.
 
   - Open `config.php` in the `includes` folder.
 
@@ -40,6 +40,7 @@ http://localhost/DataManagement-/home.php
 ``` 
 2. Fill in the required information:
   - Start by entering IATA codes for the departure and destination airports (e.g., YYZ -> DXB).
+  - The date range between departure and return should not exceed 30 days.
 3. Explore the system:
   - Complete the booking process by entering passenger details and making the payment.
   - View your booking details and download the boarding pass.
