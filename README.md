@@ -39,13 +39,13 @@ https://github.com/SandraMShaji/DataManagement-.git
 http://localhost/DataManagement-/home.php
 ``` 
 2. Fill in the required information:
-- Start by entering IATA codes for the departure and destination airports (e.g., YYZ -> DXB).
+  - Start by entering IATA codes for the departure and destination airports (e.g., YYZ -> DXB).
 3. Explore the system:
-- Complete the booking process by entering passenger details and making the payment.
-- View your booking details and download the boarding pass.
+  - Complete the booking process by entering passenger details and making the payment.
+  - View your booking details and download the boarding pass.
 
 ### Built With
-- PHP
-- MySQL
-- HTML/CSS
-- Bootstrap (for styling)
+  - PHP
+  - MySQL
+  - HTML/CSS
+  - Bootstrap (for styling)
