@@ -52,5 +52,6 @@ http://localhost/DataManagement-/home.php
   - Bootstrap (for styling)
 
 ### Demo
-Watch the video
+![image](https://github.com/user-attachments/assets/4e85efbb-a5d6-4c33-902a-4051b09f0790)
+
 
