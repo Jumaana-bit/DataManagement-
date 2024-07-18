@@ -50,3 +50,7 @@ http://localhost/DataManagement-/home.php
   - MySQL
   - HTML/CSS
   - Bootstrap (for styling)
+
+### Demo
+Watch the video
+
