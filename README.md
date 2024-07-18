@@ -54,6 +54,6 @@ http://localhost/DataManagement-/home.php
 ### Demo
 ![image](https://github.com/user-attachments/assets/4e85efbb-a5d6-4c33-902a-4051b09f0790)
 
-[![Watch the video](https://github.com/Jumaana-bit/DataManagement-/blob/main/flightDemo.mkv)](https://github.com/Jumaana-bit/DataManagement-/blob/main/flightDemo.mkv)
+[![Watch the video](https://raw.githubusercontent.com/Jumaana-bit/DataManagement-/blob/main/flightDemo.mkv)](https://raw.githubusercontent.com/Jumaana-bit/DataManagement-/blob/main/flightDemo.mkv)
 
 
