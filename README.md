@@ -52,8 +52,5 @@ http://localhost/DataManagement-/home.php
   - Bootstrap (for styling)
 
 ### Demo
-![image](https://github.com/user-attachments/assets/4e85efbb-a5d6-4c33-902a-4051b09f0790)
-
-[![Watch the video](https://raw.githubusercontent.com/Jumaana-bit/DataManagement-/blob/main/flightDemo.mkv)](https://raw.githubusercontent.com/Jumaana-bit/DataManagement-/blob/main/flightDemo.mkv)
-
+https://github.com/user-attachments/assets/242d7f6c-9198-42be-8856-34a77cb946af
 
